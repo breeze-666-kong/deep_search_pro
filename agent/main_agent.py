@@ -9,7 +9,7 @@ from tools.pdf_tools import convert_md_to_pdf
 from tools.upload_file_read_tool import read_file_content
 from agent.llm import llm
 from agent.prompts import main_agent_content
-
+from core.logger import get_logger
 from api.monitor import monitor
 import asyncio
 import uuid
@@ -19,6 +19,8 @@ from pathlib import Path
 from api.context import set_session_context, reset_session_context, set_thread_context
 
 from langchain_core.messages import AIMessage
+
+logger = get_logger("main_agent")
 
 main_agent = create_deep_agent(
    model = llm,
@@ -53,7 +55,7 @@ async def run_deep_agent(task_query,session_id):
     :param session_id:本次会话的id
     :return:
     """
-    print(f"当前会话的main_agent开始执行,会话id{session_id}")
+    logger.info(f"当前会话的main_agent开始执行,会话id{session_id}")
     #1.生成当前会话存储的文件夹
     session_dir=project_root_path/"output"/f"session_{session_id}"
     #创建会话文件夹,parents的含义是创建父文件夹,exist_ok是允许存在
@@ -117,7 +119,7 @@ async def run_deep_agent(task_query,session_id):
                     last_msg= messages[-1]
                     #返回结果
                     if last_msg.content:
-                        print(f"主智能体返回结果:{last_msg.content}")
+                        logger.info(f"主智能体返回结果:{last_msg.content}")
                         monitor.report_task_result(last_msg.content)
                     #调子智能体
                     elif last_msg.tool_calls:

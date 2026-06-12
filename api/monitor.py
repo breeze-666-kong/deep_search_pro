@@ -3,6 +3,9 @@ import asyncio
 from typing import Any, Dict, Optional
 from fastapi import WebSocket
 from api.context import get_thread_context
+from core.logger import get_logger
+
+logger = get_logger("monitor")
 
 # 尝试导入全局运行时（用于脚本模式下的流式输出）
 try:
@@ -84,7 +87,7 @@ class ToolMonitor:
                         # 如果没有 thread_id，说明可能是系统级消息，或者未上下文环境
                         pass
             except Exception as e:
-                print(f"[Monitor] WebSocket send failed: {e}")
+                logger.error(f"[Monitor] WebSocket send failed: {e}")
 
         # 2. 尝试通过全局 runtime 输出 (DeepAgents 脚本模式)
         # 这使得 simple_agents.py 中的 MockRuntime 能接收到数据
@@ -96,7 +99,7 @@ class ToolMonitor:
 
         # 3. 控制台保底输出 (方便调试)
         # 加上特殊前缀，方便肉眼识别
-        print(f"\n[Monitor:{event_type}] {message}")
+        logger.debug(f"\n[Monitor:{event_type}] {message}")
 
     def report_tool(self, tool_name: str, args: Dict[str, Any] = None):
         """报告工具开始执行"""
@@ -130,17 +133,17 @@ class ConnectionManager:
         """显式设置事件循环"""
         self.loop = loop
         monitor.set_websocket_manager(self)
-        print(f"[Monitor] ConnectionManager manually bound to loop: {id(self.loop)}")
+        logger.info(f"[Monitor] ConnectionManager manually bound to loop: {id(self.loop)}")
 
     async def connect(self, websocket: WebSocket, thread_id: str):
         await websocket.accept()
         self.active_connections[thread_id] = websocket
-        print(f"Client connected: {thread_id}")
+        logger.info(f"Client connected: {thread_id}")
 
     def disconnect(self, websocket: WebSocket, thread_id: str):
         if thread_id in self.active_connections:
             del self.active_connections[thread_id]
-        print(f"Client disconnected: {thread_id}")
+        logger.info(f"Client disconnected: {thread_id}")
 
     async def send_personal_message(self, message: str, websocket: WebSocket):
         await websocket.send_text(message)

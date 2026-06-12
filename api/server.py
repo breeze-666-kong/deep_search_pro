@@ -8,6 +8,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
 import shutil
+from core.logger import get_logger
+
+logger = get_logger("api_server")
 
 # Add project root to sys.path
 current_dir = Path(__file__).resolve().parent
@@ -49,7 +52,7 @@ async def startup_event():
     """
     loop = asyncio.get_running_loop()
     manager.set_loop(loop)
-    print(f"[Server] WebSocket Manager bound to loop: {id(loop)}")
+    logger.info(f"[Server] WebSocket Manager bound to loop: {id(loop)}")
 
 
 @app.post("/api/task")
@@ -141,7 +144,7 @@ async def list_files(path: str):
         path (str): 目标目录的绝对路径 (必须在 output 目录下)。
     """
     # 1. [调试] 打印请求路径
-    print(f"[DEBUG] 请求文件列表: {path}")
+    logger.debug(f"[DEBUG] 请求文件列表: {path}")
 
     try:
         # 2. [解析] 获取绝对路径对象
@@ -150,11 +153,11 @@ async def list_files(path: str):
 
         # 3. [安全] 检查路径是否越界 (Path Traversal Check)
         if not abs_path.is_relative_to(output_abs):
-            print(f"[ERROR] 拒绝访问: {abs_path} 不在 {output_abs} 目录下")
+            logger.error(f"[ERROR] 拒绝访问: {abs_path} 不在 {output_abs} 目录下")
             return {"error": "拒绝访问: 只能访问输出目录下的文件"}
 
     except Exception as e:
-        print(f"[ERROR] 路径解析失败: {e}")
+        logger.error(f"[ERROR] 路径解析失败: {e}")
         return {"error": f"路径无效: {e}"}
 
     # 4. [检查] 目录是否存在
@@ -178,12 +181,12 @@ async def list_files(path: str):
                 })
 
     except Exception as e:
-        print(f"[ERROR] 遍历文件失败: {e}")
+        logger.error(f"[ERROR] 遍历文件失败: {e}")
         return {"error": str(e)}
 
     # 6. [排序] 按修改时间倒序排列 (最新的在前)
     files.sort(key=lambda x: x.get("mtime", 0), reverse=True)
-    print(f"[DEBUG] 找到 {len(files)} 个文件")
+    logger.debug(f"[DEBUG] 找到 {len(files)} 个文件")
     return {"files": files}
 
 
@@ -194,7 +197,7 @@ async def list_files(path: str):
 # 3. 注入参数 ：FastAPI 自动把这个刚创建好的 WebSocket 对象，作为参数传给你的 websocket_endpoint(websocket, ...) 函数。
 @app.websocket("/ws/{thread_id}")
 async def websocket_endpoint(websocket: WebSocket, thread_id: str):
-    print(f"会话向我们发起了请求，要求简历连接：{thread_id} 对应：{websocket}")
+    logger.info(f"会话向我们发起了请求，要求简历连接：{thread_id} 对应：{websocket}")
     """
     WebSocket 实时通讯核心接口 (Real-time Communication)。
 
@@ -231,11 +234,11 @@ async def websocket_endpoint(websocket: WebSocket, thread_id: str):
     except WebSocketDisconnect:
         # 5. [清理] 客户端主动断开
         manager.disconnect(websocket, thread_id)
-        print(f"[WebSocket] 客户端已断开: {thread_id}")
+        logger.info(f"[WebSocket] 客户端已断开: {thread_id}")
 
     except Exception as e:
         # 6. [异常] 发生错误时断开
-        print(f"[WebSocket] 连接异常: {e}")
+        logger.error(f"[WebSocket] 连接异常: {e}")
         manager.disconnect(websocket, thread_id)
 
 if __name__ == "__main__":

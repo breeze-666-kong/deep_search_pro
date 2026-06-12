@@ -1,0 +1,3 @@
+2026-06-12 11:53:53.771 | INFO     | __main__:example_custom_logger:46 | 这是使用自定义配置的日志
+2026-06-12 11:53:53.771 | INFO     | __main__:do_something:55 | 执行某个操作
+2026-06-12 11:53:53.771 | ERROR    | __main__:do_something:59 | 发生错误: division by zero

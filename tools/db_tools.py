@@ -3,6 +3,9 @@ from dotenv import load_dotenv, find_dotenv
 from api.monitor import monitor
 from mysql.connector import connect, Error
 from langchain_core.tools import tool
+from core.logger import get_logger
+
+logger = get_logger("db_tools")
 
 load_dotenv(find_dotenv())
 
@@ -159,7 +162,7 @@ def execute_sql_query(query)->str:
     except Error as e:
         return f"查询出现异常：{str(e)}"
 if __name__ == "__main__":
-    print(execute_sql_query("SELECT * FROM `drugs` dgs join sales_records srd on dgs.drug_id = srd.drug_id"))
+    logger.info(execute_sql_query("SELECT * FROM `drugs` dgs join sales_records srd on dgs.drug_id = srd.drug_id"))
 
 
 

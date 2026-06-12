@@ -2,6 +2,9 @@
 from ragflow_sdk import RAGFlow #链接rag服务的客户端
 from ragflow.rag_config import _load_ragflow_env
 import os
+from core.logger import get_logger
+
+logger = get_logger("knowledge_demo")
 
 
 api_key,base_url =_load_ragflow_env()
@@ -16,7 +19,7 @@ def create_knowledge_base(knowledge_base_name,description):
     """
     ds = ragflow_client.create_dataset(name=knowledge_base_name, description=description,
                                        embedding_model="text-embedding-v3@Tongyi-Qianwen")
-    print(f"创建知识库成功：{ds},{ds.id}")
+    logger.info(f"创建知识库成功：{ds},{ds.id}")
 
 
 

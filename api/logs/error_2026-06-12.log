@@ -1,0 +1,8 @@
+2026-06-12 13:09:47.458 | ERROR    | tools.ragflow_tools:get_assisatant_list:48 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:14:36.250 | ERROR    | tools.ragflow_tools:get_assisatant_list:48 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:18:28.455 | ERROR    | tools.ragflow_tools:get_assisatant_list:78 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:20:23.131 | ERROR    | tools.ragflow_tools:get_assisatant_list:89 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:20:23.132 | ERROR    | tools.ragflow_tools:create_ask_delete:134 | 向RAGFlow助手 '材料知识库助手' 提问失败: Exception - The chat doesn't exist
+2026-06-12 13:20:27.600 | ERROR    | tools.ragflow_tools:get_assisatant_list:89 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:35:09.970 | ERROR    | tools.ragflow_tools:create_ask_delete:134 | 向RAGFlow助手 'literature_assistant' 提问失败: Exception - The chat doesn't exist
+2026-06-12 13:43:19.185 | ERROR    | tools.ragflow_tools:create_ask_delete:134 | 向RAGFlow助手 'library_assistant' 提问失败: Exception - The chat doesn't exist

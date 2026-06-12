@@ -1,7 +1,9 @@
 # 导入依赖
 from ragflow_sdk import RAGFlow #链接rag服务的客户端
 from ragflow.rag_config import _load_ragflow_env
+from core.logger import get_logger
 
+logger = get_logger("chat_assistant")
 
 # 创建一个ragflow的客户端
 api_key , base_url =_load_ragflow_env()
@@ -22,7 +24,7 @@ def get_assistant_list():
         if dataset_list and isinstance(dataset_list,list):
             # 知识库的name
             for dataset in dataset_list:
-                print(dataset)
+                logger.debug(dataset)
                 dataset_names.append(dataset['name']) # 将一个助手的知识库的名字加入到列表中
 
         # 拼接下当前助手的信息 + 知识库信息
@@ -58,7 +60,7 @@ def ask_question(chat_name,question):
     # 流的每一部分的对象 part
     for part in response:
         # 数据存在对象中content上！！
-        print(part.content)
+        logger.debug(part.content)
         result = part.content
     # 5. 关闭提问的会话
     # chat -> 关闭 -》  session
@@ -67,5 +69,5 @@ def ask_question(chat_name,question):
     return result
 
 if __name__ == '__main__':
-    print(get_assistant_list())
-    print(ask_question("法律援助助手", "我把人打残疾了怎么办！"))
+    logger.info(get_assistant_list())
+    logger.info(ask_question("法律援助助手", "我把人打残疾了怎么办！"))

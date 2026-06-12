@@ -6,6 +6,9 @@ from langchain_core.tools import tool
 from api.monitor import monitor
 from api.context import get_session_context
 from utils.path_utils import resolve_path
+from core.logger import get_logger
+
+logger = get_logger("upload_file_read")
 
 # 尝试导入可选依赖，实现按需加载
 try:
@@ -118,8 +121,8 @@ if __name__ == '__main__':
     result = read_file_content.invoke({
         "filename": md_path
     })
-    print("===== 读取MD文件结果 =====")
-    print(result)
+    logger.info("===== 读取MD文件结果 =====")
+    logger.info(result)
 
     # 可选：测试Excel文件（取消注释即可）
     # result_excel = read_file_content.invoke({

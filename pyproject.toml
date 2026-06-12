@@ -12,4 +12,5 @@ dependencies = [
     "deepagents>=0.6.8",
     "uvicorn>=0.49.0",
     "langchain-openai>=1.2.2",
+    "loguru>=0.7.3",
 ]

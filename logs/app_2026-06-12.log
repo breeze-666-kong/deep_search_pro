@@ -1,0 +1,9 @@
+2026-06-12 11:53:53.764 | INFO     | __main__:example_basic_usage:19 | 这是一条普通信息
+2026-06-12 11:53:53.765 | WARNING  | __main__:example_basic_usage:20 | 这是一条警告信息
+2026-06-12 11:53:53.765 | ERROR    | __main__:example_basic_usage:21 | 这是一条错误信息
+2026-06-12 11:53:53.766 | CRITICAL | __main__:example_basic_usage:22 | 这是一条严重错误信息
+2026-06-12 11:53:53.766 | INFO     | __main__:example_module_logger:30 | 这是来自 example_module 的信息
+2026-06-12 11:53:53.766 | ERROR    | __main__:example_module_logger:31 | 这是来自 example_module 的错误
+2026-06-12 11:57:24.218 | INFO     | __main__:<module>:1 | 测试统一logger
+2026-06-12 13:22:47.412 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:22:47.508 | WARNING  | tools.ragflow_tools:get_assisatant_list:55 | RAGFlow返回空助手列表

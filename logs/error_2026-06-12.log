@@ -1,0 +1,3 @@
+2026-06-12 11:53:53.765 | ERROR    | __main__:example_basic_usage:21 | 这是一条错误信息
+2026-06-12 11:53:53.766 | CRITICAL | __main__:example_basic_usage:22 | 这是一条严重错误信息
+2026-06-12 11:53:53.766 | ERROR    | __main__:example_module_logger:31 | 这是来自 example_module 的错误

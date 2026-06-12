@@ -1,0 +1,348 @@
+2026-06-12 11:58:31.463 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 1936462025632
+2026-06-12 11:58:31.463 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 1936462025632
+2026-06-12 11:59:48.998 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：f55c3ce5-f577-416d-8baf-5d20c21917c4 对应：<starlette.websockets.WebSocket object at 0x000001C2DE282420>
+2026-06-12 11:59:48.998 | INFO     | api.monitor:connect:141 | Client connected: f55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:01:04.721 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:01:12.685 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:Updated todo list to [{'content': '等待子任务完成并获取关于AI大模型应用开发岗位的相关信息', 'status': 'pending'}, {'content': '根据收集到的信息生成最终报告', 'status': 'pending'}]
+2026-06-12 12:01:37.867 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:根据网络上的信息，AI大模型应用开发岗位的前景、人才缺口以及薪资水平情况如下：
+
+### 岗位前景
+- AI大模型应用开发工程师的职业发展前景是广阔的。随着人工智能技术的发展，尤其是生成式AI（AIGC）相关职位数量的增长，该领域的工程师们正面临越来越多的机会。
+- 从事AI大模应用开发能够为个人职业发展提供“快车道”，不仅意味着更可观的薪资待遇和更稳定的岗位需求，还能积累未来十年都稀缺的技术经验。
+
+### 人才缺口
+- 目前，中国的人工智能领域存在显著的人才短缺问题，预计缺少超过500万的专业人员。
+- 对于AI数据工程师、AI机器人工程师、AI算法工程师等五类岗位的需求量最高。
+- 企业正在通过内部培训以及与高校合作等方式积极应对这一挑战，但短期内仍难以完全填补缺口。
+
+### 薪资水平
+- 在一线城市如北京、上海等地，具备大模型微调及应用开发能力的工程师月薪可达2.5万元人民币左右；若是在其他城市，则薪酬可能稍低一些。
+- 据报道，大模型研发技术人才平均月薪已超过5.4万元人民币，在高薪岗位排名中名列前茅。
+- 高端职位如大模型算法工程师的年薪甚至可以达到百万元人民币以上。
+
+总体来看，AI大模型应用开发是一个充满机遇且待遇优厚的职业方向，但同时也要求从业者拥有扎实的专业知识和技术能力。对于有兴趣进入该领域的求职者来说，现在正是一个很好的时机。
+2026-06-12 12:02:00.525 | INFO     | tools.markdown_tools:generate_markdown:58 | [MarkdownTool] Successfully wrote to: D:\develop\deep_search_pro\output\session_f55c3ce5-f577-416d-8baf-5d20c21917c4\ai_development_job_report.md
+2026-06-12 12:02:00.526 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:Markdown文件 'D:\develop\deep_search_pro\output\session_f55c3ce5-f577-416d-8baf-5d20c21917c4\ai_development_job_report.md' 已成功生成并保存。
+2026-06-12 12:02:08.279 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:已成功创建关于AI大模型应用开发岗位的前景、人才缺口及薪资水平的报告。报告详细分析了该职业的发展趋势、市场需求以及相应的薪酬范围，为有兴趣进入这一领域的求职者提供了有价值的参考信息。
+2026-06-12 12:12:09.853 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:12:27.782 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:成功转换: D:\develop\deep_search_pro\output\session_f55c3ce5-f577-416d-8baf-5d20c21917c4\ai_development_job_report.pdf (Word引擎)
+2026-06-12 12:12:39.173 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:已成功将报告转换为PDF格式。现在，您拥有一份关于AI大模型应用开发岗位的前景、人才缺口及薪资水平的详细分析文档，方便打印或进一步分享。
+2026-06-12 12:15:23.646 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:15:30.282 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:### 岗位前景
+- AI大模型应用开发工程师的职业发展前景是广阔的。随着人工智能技术的发展，尤其是生成式AI（AIGC）相关职位数量的增长，该领域的工程师们正面临越来越多的机会。
+- 从事AI大模应用开发能够为个人职业发展提供“快车道”，不仅意味着更可观的薪资待遇和更稳定的岗位需求，还能积累未来十年都稀缺的技术经验。
+
+### 人才缺口
+- 目前，中国的人工智能领域存在显著的人才短缺问题，预计缺少超过500万的专业人员。
+- 对于AI数据工程师、AI机器人工程师、AI算法工程师等五类岗位的需求量最高。
+- 企业正在通过内部培训以及与高校合作等方式积极应对这一挑战，但短期内仍难以完全填补缺口。
+
+### 薪资水平
+- 在一线城市如北京、上海等地，具备大模型微调及应用开发能力的工程师月薪可达2.5万元人民币左右；若是在其他城市，则薪酬可能稍低一些。
+- 据报道，大模型研发技术人才平均月薪已超过5.4万元人民币，在高薪岗位排名中名列前茅。
+- 高端职位如大模型算法工程师的年薪甚至可以达到百万元人民币以上。
+
+总体来看，AI大模型应用开发是一个充满机遇且待遇优厚的职业方向，但同时也要求从业者拥有扎实的专业知识和技术能力。对于有兴趣进入该领域的求职者来说，现在正是一个很好的时机。
+2026-06-12 12:15:36.176 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:文件内容概述了AI大模型应用开发岗位的前景广阔、中国当前存在显著的人才短缺问题以及该领域内工程师的薪资水平较高，特别是在一线城市。对于有兴趣进入这一领域的求职者来说，现在是一个很好的时机。
+2026-06-12 12:25:15.776 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:25:47.728 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:`drugs`表中确实包含了药品信息，包括药品的通用名（generic_name）、商品名（brand_name）、批准文号（approval_number）、规格（specifications）等字段。我们可以看到阿莫西林胶囊的信息在第一行，其规格为0.25g*24粒。
+
+根据这些信息，阿莫西林胶囊的规格是0.25克每粒，一盒装有24粒。如果您需要进一步的信息或有其他问题，请告诉我。
+2026-06-12 12:25:52.313 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:阿莫西林胶囊的规格是0.25克每粒，一盒装有24粒。如果您需要进一步的信息或有其他问题，请告诉我。
+2026-06-12 12:39:28.113 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:39:37.685 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:Updated todo list to [{'content': '等待子任务完成并获取关于多喝水好处的信息', 'status': 'pending'}, {'content': '整理收集到的信息，并使用RAGFlow工具将信息存入知识库中', 'status': 'pending'}]
+2026-06-12 12:40:04.214 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:以下是一些关于多喝水的好处的信息：
+
+1. **促进新陈代谢**：身体内有足够的水分，人体才能顺利进行排汗与排尿，让体内多余的废物与毒素通过代谢被排出。此外，多喝水也能促进淋巴系统循环，提高身体新陈代谢。
+
+2. **大脑更灵活**：水是维持大脑正常功能运作的关键之一。保持适当的水分有助于大脑以最高效率工作。
+
+3. **血管更健康**：多喝水可以帮助降低血液的黏稠度，减少血栓、高血压及心血管疾病发生的机会。
+
+4. **增强免疫系统**：保持良好的水分摄入可以增强免疫系统的功能，帮助抵御感冒和流感等病毒感染。水分可以帮助稀释体内的粘液，促进排毒，减轻感冒时的症状如喉咙痛和鼻塞。
+
+5. **减肥**：对于那些希望减重的人来说，多喝水能够帮助控制饮食，因为有时候人们会将口渴误认为饥饿。同时，水还可以帮助增加饱腹感，从而减少食量。
+
+6. **预防多种疾病**：有医生指出，适量饮水还有助于预防包括尿路感染在内的十种常见疾病。
+
+综上所述，每天保证足够的水分摄入对维护身体健康非常重要。根据个人情况不同，推荐的日饮水量也会有所差异，但一般建议成年人每天至少饮用约2升（8杯）水。当然，在特别热或运动后出汗较多的情况下，应适当增加饮水量。
+2026-06-12 12:40:48.582 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前在尝试查询RAGFlow助手列表以及向健康助手提问关于多喝水的好处时遇到了网络连接问题，可能是由于代理设置或服务器暂时不可达导致的。请稍后再试或检查您的网络连接是否正常。如果问题持续存在，请联系技术支持以获得帮助。
+2026-06-12 12:40:58.316 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在尝试将多喝水的好处相关信息存入RAGFlow知识库的过程中遇到了网络连接问题，可能是由于代理设置或服务器暂时不可达导致的。请稍后再试或检查您的网络连接是否正常。如果问题持续存在，请联系技术支持以获得帮助。
+
+不过，我已经收集到了关于多喝水好处的信息，包括促进新陈代谢、让大脑更灵活、保持血管健康、增强免疫系统、辅助减肥以及预防多种疾病等。这些信息可以作为当前的知识参考。一旦网络恢复，我们可以继续尝试将其存入RAGFlow知识库中。
+2026-06-12 12:41:44.251 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:42:22.916 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前遇到了网络连接问题，无法获取助手列表以及向健康助手提问关于多喝水的好处的信息。请稍后再试或检查网络设置。如果问题依旧存在，请联系技术支持。
+2026-06-12 12:42:43.299 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:再次尝试将多喝水的好处相关信息存入RAGFlow知识库时仍然遇到了网络连接问题。请稍后再试或检查您的网络设置。如果问题依旧存在，请联系技术支持以获得帮助。
+
+目前，我已经收集到了关于多喝水好处的信息，您可以先参考这些信息。一旦网络恢复，我们可以继续尝试将其存入RAGFlow知识库中。以下是整理好的信息：
+
+1. **促进新陈代谢**：身体内有足够的水分，人体才能顺利进行排汗与排尿，让体内多余的废物与毒素通过代谢被排出。此外，多喝水也能促进淋巴系统循环，提高身体新陈代谢。
+2. **大脑更灵活**：水是维持大脑正常功能运作的关键之一。保持适当的水分有助于大脑以最高效率工作。
+3. **血管更健康**：多喝水可以帮助降低血液的黏稠度，减少血栓、高血压及心血管疾病发生的机会。
+4. **增强免疫系统**：保持良好的水分摄入可以增强免疫系统的功能，帮助抵御感冒和流感等病毒感染。水分可以帮助稀释体内的粘液，促进排毒，减轻感冒时的症状如喉咙痛和鼻塞。
+5. **减肥**：对于那些希望减重的人来说，多喝水能够帮助控制饮食，因为有时候人们会将口渴误认为饥饿。同时，水还可以帮助增加饱腹感，从而减少食量。
+6. **预防多种疾病**：有医生指出，适量饮水还有助于预防包括尿路感染在内的十种常见疾病。
+
+根据个人情况不同，推荐的日饮水量也会有所差异，但一般建议成年人每天至少饮用约2升（8杯）水。在特别热或运动后出汗较多的情况下，应适当增加饮水量。
+2026-06-12 12:48:19.280 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idf55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:48:55.899 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前遇到了网络连接问题，无法获取助手列表以及向材料知识库助手提问关于向导的介绍。请稍后再试或检查网络设置。如果问题持续，请联系技术支持。
+2026-06-12 12:49:04.884 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在尝试使用RAGFlow工具查询材料知识库以获取关于向导的介绍时，仍然遇到了网络连接问题。请稍后再试或检查您的网络设置。如果问题持续存在，请联系技术支持以获得帮助。
+
+如果您有其他问题或需要进一步的信息，请告诉我，我会尽力提供帮助。
+2026-06-12 12:49:22.396 | INFO     | api.monitor:disconnect:146 | Client disconnected: f55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:49:22.396 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: f55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:49:57.929 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 2212500486144
+2026-06-12 12:49:57.929 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 2212500486144
+2026-06-12 12:49:58.028 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：f55c3ce5-f577-416d-8baf-5d20c21917c4 对应：<starlette.websockets.WebSocket object at 0x0000020323561C70>
+2026-06-12 12:49:58.029 | INFO     | api.monitor:connect:141 | Client connected: f55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:49:58.873 | INFO     | api.monitor:disconnect:146 | Client disconnected: f55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:49:58.873 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: f55c3ce5-f577-416d-8baf-5d20c21917c4
+2026-06-12 12:49:59.238 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：9c810b91-927d-43f5-a5c3-80c959922045 对应：<starlette.websockets.WebSocket object at 0x0000020323561B80>
+2026-06-12 12:49:59.239 | INFO     | api.monitor:connect:141 | Client connected: 9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 12:50:55.416 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 12:51:40.388 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:多喝水的好处的相关知识已成功存储在指定的工作目录下的文件 `/output/session_9c810b91-927d-43f5-a5c3-80c959922045/drinking_water_benefits.txt` 中。不过，在尝试将这些信息存入 RAGFlow 知识库时遇到了一些技术问题，当前无法直接与 RAGFlow 助手通信以完成此操作。如果您需要进一步的帮助或有其他方式来处理该信息，请告诉我！
+
+对于多喝水的好处，这里有一个简要概述：
+- 保持身体水分平衡
+- 支持肾脏功能
+- 促进消化系统健康
+- 控制体重
+- 提高能量水平及认知表现
+- 维护皮肤健康
+- 调节体温
+
+请确认下一步如何继续处理这份文档。
+  
+由于没有可用的RAGFlow助手，我未能将有关多喝水好处的信息直接存入RAGFlow知识库中。但信息已经被整理并保存至您提供的工作目录下的文本文件内。如果有其他途径或方法可以用来存储这些信息，请让我知道，我将尽力协助。
+2026-06-12 12:52:00.315 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前，有关多喝水好处的信息已经整理并保存在工作目录下的文本文件中。然而，在尝试将这些信息存入RAGFlow知识库时遇到了技术问题，无法直接与RAGFlow助手通信以完成此操作。
+
+如果您有其他途径或方法来存储这些信息，请告诉我，我将尽力协助。以下是多喝水的一些主要好处的简要概述：
+
+- 保持身体水分平衡
+- 支持肾脏功能
+- 促进消化系统健康
+- 控制体重
+- 提高能量水平及认知表现
+- 维护皮肤健康
+- 调节体温
+
+请确认下一步如何继续处理这份文档。
+2026-06-12 12:53:08.050 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 12:53:26.802 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前在尝试查询RAGFlow知识库中的助手信息时遇到了异常，无法获取到可用助手的信息。这可能是由于服务器端暂时出现了问题或者是助手列表为空所导致的。如果您需要查询向导的介绍，请稍后再试或联系管理员以获得帮助。如果有其他问题，我也很乐意为您提供帮助。
+2026-06-12 12:53:38.887 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在尝试从RAGFlow知识库中查询向导的介绍时遇到了技术问题，无法获取到相关信息。这可能是由于服务器端暂时出现了问题或者是助手列表为空所导致的。
+
+如果您需要查询向导的介绍，请稍后再试或联系管理员以获得帮助。如果有其他问题，我也很乐意为您提供帮助。请告诉我您下一步的需求。
+2026-06-12 13:01:10.091 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:01:35.113 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前在RAGFlow知识库中没有找到名为“向导”的助手，因此无法直接获取该助手的主要职责、功能和使用场景的详细介绍。可能是名称输入有误或该助手尚未被添加到系统中。
+
+如果需要查询其他具体的助手信息，请提供准确的助手名称。或者，如果您想了解的知识点与特定的主题相关，也可以告诉我具体的内容，我将尽力为您提供所需的信息。
+2026-06-12 13:01:46.834 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在RAGFlow知识库中没有找到名为“向导”的助手，因此无法直接获取该助手的主要职责、功能和使用场景的详细介绍。可能是名称输入有误或该助手尚未被添加到系统中。
+
+如果您需要查询其他具体的助手信息，请提供准确的助手名称。或者，如果您想了解的知识点与特定的主题相关，也可以告诉我具体的内容，我将尽力为您提供所需的信息。
+
+请告诉我您下一步的需求。
+2026-06-12 13:03:00.708 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:03:25.802 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前在尝试查询RAGFlow服务器中的助手信息时遇到了异常，因此无法获取到材料知识库中向导的介绍。可能是由于系统临时问题或网络原因导致。请稍后再试或联系技术支持解决此问题。如果有其他具体问题或者需要进一步的帮助，请随时告诉我！
+2026-06-12 13:03:36.896 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在尝试从材料知识库中查询向导的介绍时遇到了技术问题，无法获取到相关信息。这可能是由于系统临时问题或网络原因导致的。
+
+请稍后再试或联系技术支持解决此问题。如果有其他具体问题或者需要进一步的帮助，请随时告诉我。
+
+请告诉我您下一步的需求。
+2026-06-12 13:08:53.166 | INFO     | api.monitor:disconnect:146 | Client disconnected: 9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:08:53.166 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:09:23.242 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 2148426805952
+2026-06-12 13:09:23.243 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 2148426805952
+2026-06-12 13:09:23.339 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：9c810b91-927d-43f5-a5c3-80c959922045 对应：<starlette.websockets.WebSocket object at 0x000001F4383F5AC0>
+2026-06-12 13:09:23.340 | INFO     | api.monitor:connect:141 | Client connected: 9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:09:33.046 | INFO     | api.monitor:disconnect:146 | Client disconnected: 9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:09:33.046 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 9c810b91-927d-43f5-a5c3-80c959922045
+2026-06-12 13:09:33.408 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：19d7c98c-2b6a-4f34-82dc-53220798340d 对应：<starlette.websockets.WebSocket object at 0x000001F4383F5CA0>
+2026-06-12 13:09:33.409 | INFO     | api.monitor:connect:141 | Client connected: 19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:09:34.952 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:09:47.458 | ERROR    | tools.ragflow_tools:get_assisatant_list:48 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:09:51.434 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前查询RAGFlow知识库助手时遇到了异常，无法获取可用的助手信息。异常信息显示存在一个类型错误，即列表索引必须是整数或切片，而不能是字符串。这可能是由于系统内部的一个问题导致的。请稍后再试或联系系统管理员以获得帮助。如果需要进一步的帮助，请告诉我。
+2026-06-12 13:09:57.193 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在尝试通过RAGFlow知识库查询向导的介绍时遇到了技术问题，似乎系统内部出现了错误。目前无法直接获取到您需要的信息。建议稍后再试或尝试其他类型的查询。对于给您带来的不便，我深感抱歉。如果有其他方式我可以协助您的，请随时告知。
+2026-06-12 13:09:57.195 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:Updated todo list to [{'content': '等待RAGFlow助手恢复正常后重新执行查询', 'status': 'pending'}]
+2026-06-12 13:10:02.484 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:已记录下待办事项：等待RAGFlow助手恢复正常后重新执行查询。我会关注该问题，并在服务恢复后立即为您获取所需的信息。同时，如果您有其他相关需求或想通过不同的方式获取信息，请随时告诉我。
+2026-06-12 13:14:05.990 | INFO     | api.monitor:disconnect:146 | Client disconnected: 19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:14:05.990 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:14:15.826 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 2255943968304
+2026-06-12 13:14:15.826 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 2255943968304
+2026-06-12 13:14:16.030 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：19d7c98c-2b6a-4f34-82dc-53220798340d 对应：<starlette.websockets.WebSocket object at 0x0000020D40D71910>
+2026-06-12 13:14:16.030 | INFO     | api.monitor:connect:141 | Client connected: 19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:14:19.375 | INFO     | api.monitor:disconnect:146 | Client disconnected: 19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:14:19.375 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 19d7c98c-2b6a-4f34-82dc-53220798340d
+2026-06-12 13:14:19.733 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：9e47c672-d254-4c95-80c0-773386f7e997 对应：<starlette.websockets.WebSocket object at 0x0000020D40D71BE0>
+2026-06-12 13:14:19.734 | INFO     | api.monitor:connect:141 | Client connected: 9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:14:26.586 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:14:36.250 | ERROR    | tools.ragflow_tools:get_assisatant_list:48 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:14:41.379 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前没有可用的助手来查询材料知识库，同时指定的工作目录 `/output/session_9e47c672-d254-4c95-80c0-773386f7e997` 为空。请确认相关信息后重试或提供其他需要查询的内容。如果需要进一步的帮助，请告诉我！
+2026-06-12 13:14:55.512 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:似乎在尝试通过RAGFlow助手查询材料知识库以获取向导的介绍时遇到了问题，当前没有找到可用的助手来完成这个任务，并且指定的工作目录是空的。可能是对“向导”这一概念有些误解或具体的查询目标不够明确。能否请您提供更多关于您想要了解的向导的具体信息？例如，您是指某个特定领域的向导、软件使用向导还是其他类型的指导资料呢？这样我或许能更好地帮助到您。
+  
+如果您的请求涉及的是空调行业内的某一具体指南或教程，请告知我更详细的信息，以便我能更准确地为您提供所需资料。
+2026-06-12 13:17:57.543 | INFO     | api.monitor:disconnect:146 | Client disconnected: 9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:17:57.544 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:18:07.320 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 2691711772352
+2026-06-12 13:18:07.320 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 2691711772352
+2026-06-12 13:18:07.504 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：9e47c672-d254-4c95-80c0-773386f7e997 对应：<starlette.websockets.WebSocket object at 0x00000272B7E05C40>
+2026-06-12 13:18:07.504 | INFO     | api.monitor:connect:141 | Client connected: 9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:18:16.403 | INFO     | api.monitor:disconnect:146 | Client disconnected: 9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:18:16.403 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 9e47c672-d254-4c95-80c0-773386f7e997
+2026-06-12 13:18:16.761 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：ac250dd9-1149-4919-a5b6-fe3025206fe6 对应：<starlette.websockets.WebSocket object at 0x00000272B7E061E0>
+2026-06-12 13:18:16.762 | INFO     | api.monitor:connect:141 | Client connected: ac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:18:18.028 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:18:28.354 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:18:28.455 | ERROR    | tools.ragflow_tools:get_assisatant_list:78 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:18:32.038 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前查询RAGFlow知识库助手信息时出现了一个异常，可能是由于服务器端暂时的问题或数据格式错误。请稍后再试，或者联系系统管理员解决此问题。如果需要进一步的帮助或有其他问题，请随时告诉我！
+2026-06-12 13:18:37.113 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:目前在查询RAGFlow知识库以获取向导的介绍时遇到了一些技术问题，可能是服务器端暂时的问题或数据格式错误导致的。建议稍后再试，或者联系系统管理员解决此问题。如果有其他需要帮助的地方或不同的问题，请随时告诉我！
+2026-06-12 13:19:51.884 | INFO     | api.monitor:disconnect:146 | Client disconnected: ac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:19:51.885 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: ac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:20:01.654 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 2105525675712
+2026-06-12 13:20:01.654 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 2105525675712
+2026-06-12 13:20:02.019 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：ac250dd9-1149-4919-a5b6-fe3025206fe6 对应：<starlette.websockets.WebSocket object at 0x000001EA3C451D00>
+2026-06-12 13:20:02.019 | INFO     | api.monitor:connect:141 | Client connected: ac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:20:08.471 | INFO     | api.monitor:disconnect:146 | Client disconnected: ac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:20:08.471 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: ac250dd9-1149-4919-a5b6-fe3025206fe6
+2026-06-12 13:20:08.828 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：0b12465f-c963-4b31-9f33-9925b6f56796 对应：<starlette.websockets.WebSocket object at 0x000001EA3C451790>
+2026-06-12 13:20:08.829 | INFO     | api.monitor:connect:141 | Client connected: 0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:20:10.217 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话id0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:20:22.997 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:20:22.998 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 '材料知识库助手' 提问: 请提供向导的介绍。
+2026-06-12 13:20:23.131 | ERROR    | tools.ragflow_tools:get_assisatant_list:89 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:20:23.132 | ERROR    | tools.ragflow_tools:create_ask_delete:134 | 向RAGFlow助手 '材料知识库助手' 提问失败: Exception - The chat doesn't exist
+2026-06-12 13:20:27.507 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:20:27.600 | ERROR    | tools.ragflow_tools:get_assisatant_list:89 | 查询RAGFlow助手列表失败: TypeError - list indices must be integers or slices, not str
+2026-06-12 13:20:31.754 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:再次尝试查询RAGFlow助手列表时遇到了同样的异常。这可能是由于系统当前存在一些技术问题。请稍后再试，或联系技术支持以获得进一步的帮助。对于给您带来的不便，我深感抱歉。如果您有其他问题或需要其他帮助，请随时告诉我！
+2026-06-12 13:20:39.280 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在尝试通过RAGFlow助手查询材料知识库以获取向导的介绍时，遇到了一些技术问题。这可能是由于系统当前存在一些故障。对于给您带来的不便，我深感抱歉。
+
+如果您有其他问题或需要其他帮助，请随时告诉我！同时，建议您稍后再试，或者联系技术支持以获得进一步的帮助。
+2026-06-12 13:24:08.742 | INFO     | api.monitor:disconnect:146 | Client disconnected: 0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:24:08.743 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:24:18.398 | INFO     | api.monitor:set_loop:136 | [Monitor] ConnectionManager manually bound to loop: 1534970892112
+2026-06-12 13:24:18.399 | INFO     | api.server:startup_event:55 | [Server] WebSocket Manager bound to loop: 1534970892112
+2026-06-12 13:24:18.517 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：0b12465f-c963-4b31-9f33-9925b6f56796 对应：<starlette.websockets.WebSocket object at 0x00000165647E1C40>
+2026-06-12 13:24:18.517 | INFO     | api.monitor:connect:141 | Client connected: 0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:24:29.992 | INFO     | api.monitor:disconnect:146 | Client disconnected: 0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:24:29.992 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: 0b12465f-c963-4b31-9f33-9925b6f56796
+2026-06-12 13:24:30.356 | INFO     | api.server:websocket_endpoint:200 | 会话向我们发起了请求，要求简历连接：b8233c65-6770-4110-baeb-4adc6c537e41 对应：<starlette.websockets.WebSocket object at 0x00000165647E1B20>
+2026-06-12 13:24:30.357 | INFO     | api.monitor:connect:141 | Client connected: b8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:24:31.567 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idb8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:24:43.482 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:24:43.581 | INFO     | tools.ragflow_tools:get_assisatant_list:58 | 成功获取1个助手
+2026-06-12 13:24:43.581 | INFO     | tools.ragflow_tools:get_assisatant_list:85 | 助手列表构建完成:
+名称:breeze,助手描述：你是一个会查询材料知识库的助手,关联的知识库：
+
+2026-06-12 13:24:48.531 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 'breeze' 提问: 请提供向导的介绍。
+2026-06-12 13:24:48.627 | INFO     | tools.ragflow_tools:create_ask_delete:116 | 找到助手，ID=e4a0a35a661e11f1b9156ea2c1150c5c，创建临时会话
+2026-06-12 13:24:48.736 | INFO     | tools.ragflow_tools:create_ask_delete:119 | 会话创建成功，ID: 07cd5f08661f11f1b8d86ea2c1150c5c，开始提问...
+2026-06-12 13:25:38.324 | INFO     | tools.ragflow_tools:create_ask_delete:126 | 收到回复，长度: 2050 字符
+2026-06-12 13:25:38.424 | INFO     | tools.ragflow_tools:create_ask_delete:129 | 会话已关闭
+2026-06-12 13:26:09.425 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:这是通过材料知识库助手 "breeze" 获取的向导介绍方案。该方案提供了两种风格的向导介绍：简洁通用型和具体特色型。
+
+### 风格一：简洁通用型 (模板)
+- **介绍文本**:
+  > [向导姓名] 是一位经验丰富、热心负责的向导。擅长带领游客探索 [地区/主题名称，例如：历史文化景区、自然风光胜地、美食探秘之旅等]。[他/她] 凭借深厚的知识积累和生动形象的讲解方式，能够让游客深入了解当地的风土人情，确保行程安全流畅、信息丰富且充满乐趣。选择 [向导姓名] 作为您的向导，将助您获得一次深刻而难忘的体验。
+- **特点**:
+  - 简洁明了
+  - 语言正式、专业
+  - 涵盖了向导的核心能力（经验、知识、讲解、责任心）
+  - 突出向导所能带来的价值
+  - 留有填空空间，稍作修改即可适用于大多数向导
+
+### 风格二：具体特色型 (案例)
+- **案例 1 (历史文化向导)**: 李明深耕历史文化研究，能够深入浅出地讲述古迹背后的故事与传说。
+- **案例 2 (户外探险向导)**: 王芳具备专业认证资质，熟悉地形天气，并能引导参与者学习野外生存技能。
+- **案例 3 (语言与文化向导)**: 佐藤美雪精通中文及地方方言，用流利的语言和生动的故事介绍当地文化。
+- **案例 4 (技术导览解说)**: 赵海拥有工程学背景，能够通俗而不失专业地解析技术实操细节。
+- **案例 5 (幽默友善型向导)**: 大刘以其丰富的经验和幽默的性格，为旅行增添乐趣。
+
+如果需要进一步定制或特定类型的向导简介，请提供更详细的信息。希望这些建议能满足您的需求！
+2026-06-12 13:26:30.672 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idb8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:26:39.930 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:通过RAGFlow助手查询材料知识库后，我找到了关于向导介绍的两种风格方案：
+
+### 风格一：简洁通用型 (模板)
+- **介绍文本**:
+  > [向导姓名] 是一位经验丰富、热心负责的向导。擅长带领游客探索 [地区/主题名称，例如：历史文化景区、自然风光胜地、美食探秘之旅等]。[他/她] 凭借深厚的知识积累和生动形象的讲解方式，能够让游客深入了解当地的风土人情，确保行程安全流畅、信息丰富且充满乐趣。选择 [向导姓名] 作为您的向导，将助您获得一次深刻而难忘的体验。
+- **特点**:
+  - 简洁明了
+  - 语言正式、专业
+  - 涵盖了向导的核心能力（经验、知识、讲解、责任心）
+  - 突出向导所能带来的价值
+  - 留有填空空间，稍作修改即可适用于大多数向导
+
+### 风格二：具体特色型 (案例)
+- **案例 1 (历史文化向导)**: 李明深耕历史文化研究，能够深入浅出地讲述古迹背后的故事与传说。
+- **案例 2 (户外探险向导)**: 王芳具备专业认证资质，熟悉地形天气，并能引导参与者学习野外生存技能。
+- **案例 3 (语言与文化向导)**: 佐藤美雪精通中文及地方方言，用流利的语言和生动的故事介绍当地文化。
+- **案例 4 (技术导览解说)**: 赵海拥有工程学背景，能够通俗而不失专业地解析技术实操细节。
+- **案例 5 (幽默友善型向导)**: 大刘以其丰富的经验和幽默的性格，为旅行增添乐趣。
+
+如果需要进一步定制或特定类型的向导简介，请提供更详细的信息。希望这些建议能满足您的需求！
+2026-06-12 13:26:43.750 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:26:43.846 | INFO     | tools.ragflow_tools:get_assisatant_list:58 | 成功获取2个助手
+2026-06-12 13:26:43.846 | INFO     | tools.ragflow_tools:get_assisatant_list:85 | 助手列表构建完成:
+名称:breeze,助手描述：你是一个会查询材料知识库的助手,关联的知识库：材料
+名称:breeze,助手描述：你是一个会查询材料知识库的助手,关联的知识库：
+
+2026-06-12 13:26:51.932 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 'breeze' 提问: 请提供向导的介绍。
+2026-06-12 13:26:52.030 | INFO     | tools.ragflow_tools:create_ask_delete:116 | 找到助手，ID=39f32c92661f11f1a3656ea2c1150c5c，创建临时会话
+2026-06-12 13:26:52.128 | INFO     | tools.ragflow_tools:create_ask_delete:119 | 会话创建成功，ID: 515adb28661f11f1a2676ea2c1150c5c，开始提问...
+2026-06-12 13:27:00.746 | INFO     | tools.ragflow_tools:create_ask_delete:126 | 收到回复，长度: 386 字符
+2026-06-12 13:27:00.848 | INFO     | tools.ragflow_tools:create_ask_delete:129 | 会话已关闭
+2026-06-12 13:27:07.389 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在材料知识库中未找到关于“向导”的介绍。看起来知识库的内容主要集中在电子架构迁移的技术细节上，而没有与“向导”相关的信息。
+
+如果您有更具体的需求或其他问题，请告诉我，我会尽力提供帮助。
+2026-06-12 13:27:14.258 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在材料知识库中未找到关于“向导”的介绍。看起来知识库的内容主要集中在电子架构迁移的技术细节上，而没有与“向导”相关的信息。
+
+如果您有更具体的需求或其他问题，请告诉我，我会尽力提供帮助。如果有其他类型的向导介绍需求或具体的背景信息，请进一步说明，我将通过其他方式为您查找相关信息。
+2026-06-12 13:28:05.773 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idb8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:28:17.756 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:28:17.856 | INFO     | tools.ragflow_tools:get_assisatant_list:58 | 成功获取1个助手
+2026-06-12 13:28:17.856 | INFO     | tools.ragflow_tools:get_assisatant_list:85 | 助手列表构建完成:
+名称:游戏高手,助手描述：你是一个会查询材料知识库的助手,关联的知识库：材料
+
+2026-06-12 13:28:22.776 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 '游戏高手' 提问: 请问在材料知识库中，可以找到哪些有关爆破专家的地点信息？
+2026-06-12 13:28:22.875 | INFO     | tools.ragflow_tools:create_ask_delete:116 | 找到助手，ID=68df2e2a661f11f1ae1d6ea2c1150c5c，创建临时会话
+2026-06-12 13:28:22.975 | INFO     | tools.ragflow_tools:create_ask_delete:119 | 会话创建成功，ID: 87810088661f11f180fe6ea2c1150c5c，开始提问...
+2026-06-12 13:28:32.558 | INFO     | tools.ragflow_tools:create_ask_delete:126 | 收到回复，长度: 386 字符
+2026-06-12 13:28:32.658 | INFO     | tools.ragflow_tools:create_ask_delete:129 | 会话已关闭
+2026-06-12 13:28:40.408 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:向"游戏高手"助手查询后，反馈结果是在材料知识库中未找到关于爆破专家的地点信息。该知识库主要包含的是与材料相关的技术文档，并不涉及具体的人员或地点信息。
+
+如果您需要寻找爆破专家的具体位置，可能需要查阅其他专门的人才数据库或是相关专业服务网站。您是否有其他问题或者需要进一步的帮助？
+2026-06-12 13:28:47.826 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:在材料知识库中未找到关于爆破专家的地点信息。该知识库主要包含的是与材料相关的技术文档，并不涉及具体的人员或地点信息。
+
+如果您需要寻找爆破专家的具体位置，可能需要查阅其他专门的人才数据库或是相关专业服务网站。您是否有其他问题或者需要进一步的帮助？如果有其他类型的需求或具体的背景信息，请进一步说明，我将通过其他方式为您查找相关信息。
+2026-06-12 13:34:56.287 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idb8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:35:09.864 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:35:09.864 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 'literature_assistant' 提问: 《百年孤独》的作者是谁？
+2026-06-12 13:35:09.968 | INFO     | tools.ragflow_tools:get_assisatant_list:58 | 成功获取2个助手
+2026-06-12 13:35:09.968 | INFO     | tools.ragflow_tools:get_assisatant_list:85 | 助手列表构建完成:
+名称:阅读高手,助手描述：你是通读知识库中书籍的高手,可以回答知识库中书籍内容的问题,关联的知识库：百年孤独
+名称:游戏高手,助手描述：你是一个会查询材料知识库的助手,关联的知识库：材料
+
+2026-06-12 13:35:09.970 | ERROR    | tools.ragflow_tools:create_ask_delete:134 | 向RAGFlow助手 'literature_assistant' 提问失败: Exception - The chat doesn't exist
+2026-06-12 13:35:16.143 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 '阅读高手' 提问: 《百年孤独》的作者是谁？
+2026-06-12 13:35:16.241 | INFO     | tools.ragflow_tools:create_ask_delete:116 | 找到助手，ID=52266076662011f1981e6ea2c1150c5c，创建临时会话
+2026-06-12 13:35:16.345 | INFO     | tools.ragflow_tools:create_ask_delete:119 | 会话创建成功，ID: 7de3b2a4662011f194ab6ea2c1150c5c，开始提问...
+2026-06-12 13:35:24.568 | INFO     | tools.ragflow_tools:create_ask_delete:126 | 收到回复，长度: 307 字符
+2026-06-12 13:35:24.669 | INFO     | tools.ragflow_tools:create_ask_delete:129 | 会话已关闭
+2026-06-12 13:35:29.749 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:《百年孤独》的作者是加西亚·马尔克斯。
+2026-06-12 13:35:35.406 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:《百年孤独》的作者是加西亚·马尔克斯。
+2026-06-12 13:43:08.117 | INFO     | agent.main_agent:run_deep_agent:58 | 当前会话的main_agent开始执行,会话idb8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:43:19.086 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 'library_assistant' 提问: 《百年孤独》的作者是谁？
+2026-06-12 13:43:19.086 | INFO     | tools.ragflow_tools:get_assisatant_list:49 | 开始查询RAGFlow助手列表，服务地址: http://119.45.45.107
+2026-06-12 13:43:19.185 | ERROR    | tools.ragflow_tools:create_ask_delete:134 | 向RAGFlow助手 'library_assistant' 提问失败: Exception - The chat doesn't exist
+2026-06-12 13:43:19.189 | INFO     | tools.ragflow_tools:get_assisatant_list:58 | 成功获取2个助手
+2026-06-12 13:43:19.189 | INFO     | tools.ragflow_tools:get_assisatant_list:85 | 助手列表构建完成:
+名称:阅读高手,助手描述：你是通读知识库中书籍的高手,可以回答知识库中书籍内容的问题,关联的知识库：百年孤独
+名称:游戏高手,助手描述：你是一个会查询材料知识库的助手,关联的知识库：材料
+
+2026-06-12 13:43:24.932 | INFO     | tools.ragflow_tools:create_ask_delete:107 | 开始向RAGFlow助手 '阅读高手' 提问: 《百年孤独》的作者是谁？
+2026-06-12 13:43:25.029 | INFO     | tools.ragflow_tools:create_ask_delete:116 | 找到助手，ID=52266076662011f1981e6ea2c1150c5c，创建临时会话
+2026-06-12 13:43:25.133 | INFO     | tools.ragflow_tools:create_ask_delete:119 | 会话创建成功，ID: a13a8560662111f1803f6ea2c1150c5c，开始提问...
+2026-06-12 13:43:37.533 | INFO     | tools.ragflow_tools:create_ask_delete:126 | 收到回复，长度: 456 字符
+2026-06-12 13:43:37.638 | INFO     | tools.ragflow_tools:create_ask_delete:129 | 会话已关闭
+2026-06-12 13:43:45.473 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:根据知识库中的内容，《百年孤独》的作者是哥伦比亚作家加西亚·马尔克斯（Gabriel García Márquez）。
+2026-06-12 13:43:52.727 | INFO     | agent.main_agent:run_deep_agent:122 | 主智能体返回结果:《百年孤独》的作者是哥伦比亚作家加西亚·马尔克斯（Gabriel García Márquez）。
+2026-06-12 13:47:08.201 | INFO     | api.monitor:disconnect:146 | Client disconnected: b8233c65-6770-4110-baeb-4adc6c537e41
+2026-06-12 13:47:08.201 | INFO     | api.server:websocket_endpoint:237 | [WebSocket] 客户端已断开: b8233c65-6770-4110-baeb-4adc6c537e41
